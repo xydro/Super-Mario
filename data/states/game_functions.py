@@ -316,7 +316,7 @@ class Level1(tools._State):
 
     def setup_enemies(self):
         """Creates all the enemies and stores them in a list of lists."""
-
+        '''
         goomba1 = enemies.Goomba(193)
         goomba2 = enemies.Goomba(193)
         goomba3 = enemies.Goomba(193)
@@ -324,9 +324,7 @@ class Level1(tools._State):
         goomba5 = enemies.Goomba()
         goomba6 = enemies.Goomba()
         goomba7 = enemies.Goomba()
-        evilBird1 = enemies.evilBird(140)
-        eatingPlant1 = enemies.eatingPlant(363)
-        eatingPlant2 = enemies.eatingPlant(375)
+        
 
         koopa1 = enemies.Koopa()
 
@@ -431,28 +429,18 @@ class Level1(tools._State):
         enemy_group47 = pg.sprite.Group(evilBird1)
         enemy_group48 = pg.sprite.Group(eatingPlant1)
         enemy_group49 = pg.sprite.Group(eatingPlant2)
-
-
+'''
+        #evilBird1 = enemies.evilBird(140)
+        #eatingPlant1 = enemies.eatingPlant(363, 1350)
+        #eatingPlant2 = enemies.eatingPlant(375)
+        #enemy_group47 = pg.sprite.Group(evilBird1)
+        #enemy_group48 = pg.sprite.Group(eatingPlant1)
+        #enemy_group49 = pg.sprite.Group(eatingPlant2)
         # enemy_group6 = pg.sprite.Group(koopa0)
 
-        self.enemy_group_list = [enemy_group1, enemy_group2, enemy_group3,
-                                 enemy_group4, enemy_group5, enemy_group6,
-                                 enemy_group7, enemy_group8, enemy_group9,
-                                 enemy_group10, enemy_group11, enemy_group12,
-                                 enemy_group13, enemy_group14, enemy_group15,
-                                 enemy_group16, enemy_group17, enemy_group18,
-                                 enemy_group19, enemy_group20, enemy_group21,
-                                 enemy_group22, enemy_group23, enemy_group24,
-                                 enemy_group25, enemy_group26, enemy_group27,
-                                 enemy_group28, enemy_group29, enemy_group30,
-                                 enemy_group31, enemy_group32, enemy_group33,
-                                 enemy_group34, enemy_group35, enemy_group36,
-                                 enemy_group37, enemy_group38, enemy_group39,
-                                 enemy_group40, enemy_group41, enemy_group42,
-                                 enemy_group43, enemy_group44, enemy_group45,
-                                 enemy_group46, enemy_group47, enemy_group48,
-                                 enemy_group49
-                                 ]
+
+
+        self.enemy_group_list = []
 
     def setup_mario(self):
         """Places Mario at the beginning of the level"""
@@ -473,7 +461,7 @@ class Level1(tools._State):
         check7 = checkpoint.Checkpoint(850, "7")
         check8 = checkpoint.Checkpoint(1350, "8")
         check9 = checkpoint.Checkpoint(1400, "9")
-        check10 = checkpoint.Checkpoint(1450, "10")
+        check10 = checkpoint.Checkpoint(1455, "10")
         check11 = checkpoint.Checkpoint(1500, "11")
         # Fix 12
         check12 = checkpoint.Checkpoint(10600, "12")
@@ -516,9 +504,9 @@ class Level1(tools._State):
         check44 = checkpoint.Checkpoint(7750, "44")
         check45 = checkpoint.Checkpoint(7800, "45")
         check46 = checkpoint.Checkpoint(7850, "46")
-        check47 = checkpoint.Checkpoint(800, "47")
-        check48 = checkpoint.Checkpoint(993, '48')
-        check49 = checkpoint.Checkpoint(1548, '49')
+        check47 = checkpoint.Checkpoint(810, "47")
+        check48 = checkpoint.Checkpoint(1000, '48')
+        check49 = checkpoint.Checkpoint(1580, '49')
 
 
         check50 = checkpoint.Checkpoint(8504, '50', 5, 6)
@@ -629,6 +617,358 @@ class Level1(tools._State):
         self.update_viewport()
         self.overhead_info_display.update(self.game_info, self.mario)
 
+    def enemySpawning1(self, i):
+        if i == 0:
+            goomba1 = enemies.Goomba(193)
+            enemy_group1 = pg.sprite.Group(goomba1)
+            return enemy_group1
+        elif i == 1:
+            goomba2 = enemies.Goomba(193)
+            enemy_group2 = pg.sprite.Group(goomba2)
+            #eatingPlant1 = enemies.eatingPlant(363, 800)
+            #enemy_group48 = pg.sprite.Group(eatingPlant1)
+            #self.enemy_group.add(enemy_group48)
+            return enemy_group2
+        elif i == 2:
+            goomba3 = enemies.Goomba(193)
+            enemy_group3 = pg.sprite.Group(goomba3)
+            return enemy_group3
+        elif i == 3:
+            goomba4 = enemies.Goomba()
+            enemy_group4 = pg.sprite.Group(goomba4)
+            return enemy_group4
+        elif i == 4:
+            goomba5 = enemies.Goomba()
+            enemy_group5 = pg.sprite.Group(goomba5)
+            return enemy_group5
+        elif i == 5:
+            goomba6 = enemies.Goomba()
+            enemy_group6 = pg.sprite.Group(goomba6)
+            return enemy_group6
+        elif i == 6:
+            goomba7 = enemies.Goomba()
+            enemy_group7 = pg.sprite.Group(goomba7)
+            return enemy_group7
+        elif i == 7:
+            koopa1 = enemies.Koopa()
+            enemy_group8 = pg.sprite.Group(koopa1)
+            return enemy_group8
+        elif i == 8:
+            pass
+        elif i == 9:
+            evilBird1 = enemies.evilBird(400)
+            enemy_group47 = pg.sprite.Group(evilBird1)
+            return enemy_group47
+        elif i == 10:
+            goomba8 = enemies.Goomba(193)
+            enemy_group9 = pg.sprite.Group(goomba8)
+            return enemy_group9
+        elif i == 11:
+            pass
+            #eatingPlant2 = enemies.eatingPlant(375)
+            #enemy_group49 = pg.sprite.Group(eatingPlant2)
+            #return enemy_group49
+        elif i == 12:
+            goomba9 = enemies.Goomba(193)
+            enemy_group10 = pg.sprite.Group(goomba9)
+            return enemy_group10
+        elif i == 13:
+            goomba10 = enemies.Goomba(193)
+            enemy_group11 = pg.sprite.Group(goomba10)
+            return enemy_group11
+        elif i == 14:
+            goomba11 = enemies.Goomba(193)
+            enemy_group12 = pg.sprite.Group(goomba11)
+            return enemy_group12
+        elif i == 15:
+            goomba12 = enemies.Goomba()
+            enemy_group13 = pg.sprite.Group(goomba12)
+            return enemy_group13
+        elif i == 16:
+            goomba13 = enemies.Goomba()
+            enemy_group14 = pg.sprite.Group(goomba13)
+            return enemy_group14
+        elif i == 17:
+            goomba14 = enemies.Goomba(193)
+            enemy_group15 = pg.sprite.Group(goomba14)
+            return enemy_group15
+        elif i == 18:
+            goomba15 = enemies.Goomba()
+            enemy_group16 = pg.sprite.Group(goomba15)
+            return enemy_group16
+        elif i == 19:
+            goomba16 = enemies.Goomba(65)
+            enemy_group17 = pg.sprite.Group(goomba16)
+            return enemy_group17
+        elif i == 20:
+            goomba17 = enemies.Goomba(300)
+            enemy_group18 = pg.sprite.Group(goomba17)
+            return enemy_group18
+        elif i == 21:
+            goomba18 = enemies.Goomba(193)
+            enemy_group19 = pg.sprite.Group(goomba18)
+            return enemy_group19
+        elif i == 22:
+            koopa2 = enemies.Koopa()
+            enemy_group20 = pg.sprite.Group(koopa2)
+            return enemy_group20
+        elif i == 23:
+            goomba19 = enemies.Goomba(193)
+            enemy_group21 = pg.sprite.Group(goomba19)
+            return enemy_group21
+        elif i == 24:
+            goomba20 = enemies.Goomba(193)
+            enemy_group22 = pg.sprite.Group(goomba20)
+            return enemy_group22
+        elif i == 25:
+            goomba21 = enemies.Goomba(193)
+            enemy_group23 = pg.sprite.Group(goomba21)
+            return enemy_group23
+        elif i == 26:
+            goomba22 = enemies.Goomba(193)
+            enemy_group24 = pg.sprite.Group(goomba22)
+            return enemy_group24
+        elif i == 27:
+            goomba23 = enemies.Goomba(193)
+            enemy_group25 = pg.sprite.Group(goomba23)
+            return enemy_group25
+        elif i == 28:
+            goomba24 = enemies.Goomba(193)
+            enemy_group26 = pg.sprite.Group(goomba24)
+            return enemy_group26
+        elif i == 29:
+            goomba25 = enemies.Goomba(193)
+            enemy_group27 = pg.sprite.Group(goomba25)
+            return enemy_group27
+        elif i == 30:
+            koopa3 = enemies.Koopa()
+            enemy_group28 = pg.sprite.Group(koopa3)
+            return enemy_group28
+        elif i == 31:
+            koopa4 = enemies.Koopa(100)
+            enemy_group29 = pg.sprite.Group(koopa4)
+            return enemy_group29
+        elif i == 32:
+            koopa5 = enemies.Koopa(100)
+            enemy_group30 = pg.sprite.Group(koopa5)
+            return enemy_group30
+        elif i == 33:
+            koopa6 = enemies.Koopa(100)
+            enemy_group31 = pg.sprite.Group(koopa6)
+            return enemy_group31
+        elif i == 34:
+            koopa7 = enemies.Koopa(100)
+            enemy_group32 = pg.sprite.Group(koopa7)
+            return enemy_group32
+        elif i == 35:
+            koopa8 = enemies.Koopa(100)
+            enemy_group33 = pg.sprite.Group(koopa8)
+            return enemy_group33
+        elif i == 36:
+            koopa9 = enemies.Koopa(100)
+            enemy_group34 = pg.sprite.Group(koopa9)
+            return enemy_group34
+        elif i == 37:
+            koopa10 = enemies.Koopa(100)
+            enemy_group35 = pg.sprite.Group(koopa10)
+            return enemy_group35
+        elif i == 38:
+            koopa11 = enemies.Koopa(100)
+            enemy_group36 = pg.sprite.Group(koopa11)
+            return enemy_group36
+        elif i == 39:
+            goomba26 = enemies.Goomba(193)
+            enemy_group37 = pg.sprite.Group(goomba26)
+            return enemy_group37
+        elif i == 40:
+            goomba27 = enemies.Goomba(193)
+            enemy_group38 = pg.sprite.Group(goomba27)
+            return enemy_group38
+        elif i == 41:
+            goomba28 = enemies.Goomba(193)
+            enemy_group39 = pg.sprite.Group(goomba28)
+            return enemy_group39
+        elif i == 42:
+            goomba29 = enemies.Goomba(193)
+            enemy_group40 = pg.sprite.Group(goomba29)
+            return enemy_group40
+        elif i == 43:
+            goomba30 = enemies.Goomba(193)
+            enemy_group41 = pg.sprite.Group(goomba30)
+            return enemy_group41
+        elif i == 44:
+            goomba31 = enemies.Goomba(105)
+            enemy_group42 = pg.sprite.Group(goomba31)
+            return enemy_group42
+        elif i == 45:
+            goomba32 = enemies.Goomba(105)
+            enemy_group43 = pg.sprite.Group(goomba32)
+            return enemy_group43
+        elif i == 46:
+            goomba33 = enemies.Goomba(105)
+            enemy_group44 = pg.sprite.Group(goomba33)
+            return enemy_group44
+        elif i == 47:
+            goomba34 = enemies.Goomba(105)
+            enemy_group45 = pg.sprite.Group(goomba34)
+            return enemy_group45
+        elif i == 48:
+            goomba35 = enemies.Goomba(105)
+            enemy_group46 = pg.sprite.Group(goomba35)
+            return enemy_group46
+
+    def enemySpawning2(self, i):
+        if i == 0:
+            goomba1 = enemies.Goomba(193)
+            return goomba1
+        elif i == 1:
+            goomba2 = enemies.Goomba(193)
+            return goomba2
+        elif i == 2:
+            goomba3 = enemies.Goomba(193)
+            return goomba3
+        elif i == 3:
+            goomba4 = enemies.Goomba()
+            return goomba4
+        elif i == 4:
+            goomba5 = enemies.Goomba()
+            return goomba5
+        elif i == 5:
+            goomba6 = enemies.Goomba()
+            return goomba6
+        elif i == 6:
+            goomba7 = enemies.Goomba()
+            return goomba7
+        elif i == 7:
+            koopa1 = enemies.Koopa()
+            return koopa1
+        elif i == 8:
+            eatingPlant1 = enemies.eatingPlant(363)
+            return eatingPlant1
+        elif i == 9:
+            evilBird1 = enemies.evilBird(-100)
+            return evilBird1
+        elif i == 10:
+            goomba8 = enemies.Goomba(193)
+            return goomba8
+        elif i == 11:
+            eatingPlant2 = enemies.eatingPlant(-100, 0)
+            return eatingPlant2
+        elif i == 12:
+            goomba9 = enemies.Goomba(193)
+            return goomba9
+        elif i == 13:
+            goomba10 = enemies.Goomba(193)
+            return goomba10
+        elif i == 14:
+            goomba11 = enemies.Goomba(193)
+            return goomba11
+        elif i == 15:
+            goomba12 = enemies.Goomba()
+            return goomba12
+        elif i == 16:
+            goomba13 = enemies.Goomba()
+            return goomba13
+        elif i == 17:
+            goomba14 = enemies.Goomba(193)
+            return goomba14
+        elif i == 18:
+            goomba15 = enemies.Goomba()
+            return goomba15
+        elif i == 19:
+            goomba16 = enemies.Goomba(65)
+            return goomba16
+        elif i == 20:
+            goomba17 = enemies.Goomba(300)
+            return goomba17
+        elif i == 21:
+            goomba18 = enemies.Goomba(193)
+            return goomba18
+        elif i == 22:
+            koopa2 = enemies.Koopa()
+            return koopa2
+        elif i == 23:
+            goomba19 = enemies.Goomba(193)
+            return goomba19
+        elif i == 24:
+            goomba20 = enemies.Goomba(193)
+            return goomba20
+        elif i == 25:
+            goomba21 = enemies.Goomba(193)
+            return goomba21
+        elif i == 26:
+            goomba22 = enemies.Goomba(193)
+            return goomba22
+        elif i == 27:
+            goomba23 = enemies.Goomba(193)
+            return goomba23
+        elif i == 28:
+            goomba24 = enemies.Goomba(193)
+            return goomba24
+        elif i == 29:
+            goomba25 = enemies.Goomba(193)
+            return goomba25
+        elif i == 30:
+            koopa3 = enemies.Koopa()
+            return koopa3
+        elif i == 31:
+            koopa4 = enemies.Koopa(100)
+            return koopa4
+        elif i == 32:
+            koopa5 = enemies.Koopa(100)
+            return koopa5
+        elif i == 33:
+            koopa6 = enemies.Koopa(100)
+            return koopa6
+        elif i == 34:
+            koopa7 = enemies.Koopa(100)
+            return koopa7
+        elif i == 35:
+            koopa8 = enemies.Koopa(100)
+            return koopa8
+        elif i == 36:
+            koopa9 = enemies.Koopa(100)
+            return koopa9
+        elif i == 37:
+            koopa10 = enemies.Koopa(100)
+            return koopa10
+        elif i == 38:
+            koopa11 = enemies.Koopa(100)
+            return koopa11
+        elif i == 39:
+            goomba26 = enemies.Goomba(193)
+            return goomba26
+        elif i == 40:
+            goomba27 = enemies.Goomba(193)
+            return goomba27
+        elif i == 41:
+            goomba28 = enemies.Goomba(193)
+            return goomba28
+        elif i == 42:
+            goomba29 = enemies.Goomba(193)
+            return goomba29
+        elif i == 43:
+            goomba30 = enemies.Goomba(193)
+            return goomba30
+        elif i == 44:
+            goomba31 = enemies.Goomba(105)
+            return goomba31
+        elif i == 45:
+            goomba32 = enemies.Goomba(105)
+            return goomba32
+        elif i == 46:
+            goomba33 = enemies.Goomba(105)
+            return goomba33
+        elif i == 47:
+            goomba34 = enemies.Goomba(105)
+            return goomba34
+        elif i == 48:
+            goomba35 = enemies.Goomba(105)
+            return goomba35
+
+
+
+
     def check_points_check(self):
         """Detect if checkpoint collision occurs, delete checkpoint,
         add enemies to self.enemy_group"""
@@ -637,11 +977,31 @@ class Level1(tools._State):
         if checkpoint:
             checkpoint.kill()
 
-            for i in range(1, 50):
+            for i in range(1, 49):
                 if checkpoint.name == str(i):
+                    # Creates monster based on checkpoints x position
+                    newEnemy = self.enemySpawning2(i)
+                    newEnemy_group = pg.sprite.Group(newEnemy)
+                    #self.enemy_group_list.insert((i - 1), newEnemy_group)
+                    newEnemy.rect.x = self.viewport.right + (i * 60)
+                    self.enemy_group.add(newEnemy_group)
+                    '''
+                    self.enemy_group_list.insert((i-1), self.enemySpawning((i-1)))
+                    print(str(self.enemy_group_list))
                     for index, enemy in enumerate(self.enemy_group_list[i - 1]):
+                        # Creates monster based on checkpoints x position
                         enemy.rect.x = self.viewport.right + (index * 60)
-                    self.enemy_group.add(self.enemy_group_list[i - 1])
+                        print(str(enemy.rect.x))
+                        print(str(i))'''
+                    '''
+                    for index, enemy in enumerate(self.enemy_group_list[i - 1]):
+                       # Creates monster based on checkpoints x position
+                        if enemy.name is not "Eating Plant":
+                            enemy.rect.x = self.viewport.right + (index * 60)
+                            print(str(enemy.rect.x))
+
+                        self.enemy_group.add(self.enemy_group_list[i - 1])
+                        '''
 
             if checkpoint.name == '50':
                 self.mario.state = s.FLAGPOLE
@@ -754,9 +1114,9 @@ class Level1(tools._State):
                 self.convert_fireflowers_to_mushrooms()
             elif self.mario.hurt_invincible:
                 pass
-            else:
-                self.mario.start_death_jump(self.game_info)
-                self.state = s.FROZEN
+            #else:
+                #self.mario.start_death_jump(self.game_info)
+                #self.state = s.FROZEN
 
         elif shell:
             self.adjust_mario_for_x_shell_collisions(shell)
@@ -1528,7 +1888,7 @@ class Level1(tools._State):
 
     def update_viewport(self):
         """Changes the view of the camera"""
-        third = self.viewport.x + self.viewport.w // 3
+        third = self.viewport.x + self.viewport.w // 6
         mario_center = self.mario.rect.centerx
         mario_right = self.mario.rect.right
 
@@ -1578,7 +1938,7 @@ class Level1(tools._State):
         self.coin_box_group.draw(self.level)
         self.sprites_about_to_die_group.draw(self.level)
         self.shell_group.draw(self.level)
-        # self.check_point_group.draw(self.level)
+        #self.check_point_group.draw(self.level)
         self.brick_pieces_group.draw(self.level)
         self.flag_pole_group.draw(self.level)
         self.mario_and_enemy_group.draw(self.level)

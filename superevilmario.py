@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-__author__ = 'Carlos Serna, Dai Kieu, Trong Dien'
+__author__ = 'Dai Kieu, Trong To, Carlos Serna'
 
 """
 This is an attempt to recreate the first level of

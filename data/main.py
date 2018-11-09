@@ -1,4 +1,4 @@
-__author__ = 'Dai Kieu, Trong Dien, Carlos Serna'
+__author__ = 'Dai Kieu, Trong To, Carlos Serna'
 
 from . import setup,tools
 from .states import main_menu,load_screen, game_functions

@@ -1,4 +1,4 @@
-__author__ = 'CPSC 386 Dai Kieu, Trong Dien, Carlos Serna'
+__author__ = 'CPSC 386 Dai Kieu, Trong To, Carlos Serna'
 
 from .. import setup, tools
 from .. import settings as s

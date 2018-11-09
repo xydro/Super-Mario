@@ -1,4 +1,4 @@
-__author__ = 'CPSC 386 Dai Kieu, Trong Dien, Carlos Serna'
+__author__ = 'CPSC 386 Dai Kieu, Trong To, Carlos Serna'
 
 
 import pygame as pg
@@ -209,7 +209,7 @@ class Koopa(Enemy):
 
 class evilBird(Enemy):
 
-    def __init__(self, y=s.GROUND_HEIGHT, x=0, direction=s.UP, name='Eating Plant'):
+    def __init__(self, y=s.GROUND_HEIGHT, x=0, direction=s.UP, name='Evil Bird'):
         Enemy.__init__(self)
         self.setup_enemy(x, y, direction, name, self.setup_frames)
 

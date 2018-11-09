@@ -1,4 +1,4 @@
-__author__ = 'CPSC 386 Dai Kieu, Trong Dien, Carlos Serna'
+__author__ = 'CPSC 386 Dai Kieu, Trong To, Carlos Serna'
 
 import pygame as pg
 from . import setup

@@ -1,0 +1,60 @@
+([('superevilmario.exe',
+   'C:\\Users\\Carlos Serna\\Desktop\\CPSC '
+   '386\\Mario-Level-1-master\\Mario-Level-1-master\\build\\superevilmario\\superevilmario.exe',
+   'EXECUTABLE'),
+  ('superevilmario.exe.manifest',
+   'C:\\Users\\Carlos Serna\\Desktop\\CPSC '
+   '386\\Mario-Level-1-master\\Mario-Level-1-master\\build\\superevilmario\\superevilmario.exe.manifest',
+   'BINARY'),
+  ('python37.dll',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\python37.dll',
+   'BINARY'),
+  ('VCRUNTIME140.dll',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('_ssl',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\DLLs\\_ssl.pyd',
+   'EXTENSION'),
+  ('unicodedata',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
+  ('pyexpat',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\DLLs\\pyexpat.pyd',
+   'EXTENSION'),
+  ('_hashlib',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\DLLs\\_hashlib.pyd',
+   'EXTENSION'),
+  ('select',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\DLLs\\select.pyd',
+   'EXTENSION'),
+  ('_bz2',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\DLLs\\_bz2.pyd',
+   'EXTENSION'),
+  ('_lzma',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\DLLs\\_lzma.pyd',
+   'EXTENSION'),
+  ('_socket',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\DLLs\\_socket.pyd',
+   'EXTENSION'),
+  ('libcrypto-1_1.dll',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\DLLs\\libcrypto-1_1.dll',
+   'BINARY'),
+  ('libssl-1_1.dll',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\DLLs\\libssl-1_1.dll',
+   'BINARY'),
+  ('base_library.zip',
+   'C:\\Users\\Carlos Serna\\Desktop\\CPSC '
+   '386\\Mario-Level-1-master\\Mario-Level-1-master\\build\\superevilmario\\base_library.zip',
+   'DATA')],)

@@ -1,4 +1,4 @@
-__author__ = 'Carlos Serna, Dai Kieu, Trong Dien'
+__author__ = 'Dai Kieu, Trong To, Carlos Serna'
 
 """
 This module initializes the display and creates dictionaries of resources.

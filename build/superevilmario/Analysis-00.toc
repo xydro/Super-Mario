@@ -1,0 +1,706 @@
+(['superevilmario.py'],
+ ['C:\\Users\\Carlos Serna\\Desktop\\CPSC '
+  '386\\Mario-Level-1-master\\Mario-Level-1-master',
+  'C:\\Users\\Carlos Serna\\Desktop\\CPSC '
+  '386\\Mario-Level-1-master\\Mario-Level-1-master'],
+ ['codecs'],
+ [],
+ [],
+ [],
+ False,
+ False,
+ '3.7.0 (v3.7.0:1bf9cc5093, Jun 27 2018, 04:06:47) [MSC v.1914 32 bit (Intel)]',
+ [('superevilmario',
+   'C:\\Users\\Carlos Serna\\Desktop\\CPSC '
+   '386\\Mario-Level-1-master\\Mario-Level-1-master\\superevilmario.py',
+   'PYSOURCE')],
+ [('ntpath',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\ntpath.py',
+   'PYMODULE'),
+  ('_strptime',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\_strptime.py',
+   'PYMODULE'),
+  ('datetime',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\datetime.py',
+   'PYMODULE'),
+  ('stringprep',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\stringprep.py',
+   'PYMODULE'),
+  ('typing',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\typing.py',
+   'PYMODULE'),
+  ('tracemalloc',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\tracemalloc.py',
+   'PYMODULE'),
+  ('__future__',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\__future__.py',
+   'PYMODULE'),
+  ('difflib',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\difflib.py',
+   'PYMODULE'),
+  ('ast',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\ast.py',
+   'PYMODULE'),
+  ('inspect',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\inspect.py',
+   'PYMODULE'),
+  ('os',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\os.py',
+   'PYMODULE'),
+  ('cmd',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\cmd.py',
+   'PYMODULE'),
+  ('bdb',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\bdb.py',
+   'PYMODULE'),
+  ('opcode',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\opcode.py',
+   'PYMODULE'),
+  ('dis',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\dis.py',
+   'PYMODULE'),
+  ('codeop',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\codeop.py',
+   'PYMODULE'),
+  ('code',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\code.py',
+   'PYMODULE'),
+  ('glob',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\glob.py',
+   'PYMODULE'),
+  ('shlex',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\shlex.py',
+   'PYMODULE'),
+  ('runpy',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\runpy.py',
+   'PYMODULE'),
+  ('importlib._bootstrap',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\importlib\\_bootstrap.py',
+   'PYMODULE'),
+  ('importlib._bootstrap_external',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\importlib\\_bootstrap_external.py',
+   'PYMODULE'),
+  ('importlib.machinery',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\importlib\\machinery.py',
+   'PYMODULE'),
+  ('importlib.util',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\importlib\\util.py',
+   'PYMODULE'),
+  ('importlib.abc',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\importlib\\abc.py',
+   'PYMODULE'),
+  ('importlib',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\importlib\\__init__.py',
+   'PYMODULE'),
+  ('pkgutil',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\pkgutil.py',
+   'PYMODULE'),
+  ('xml',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\xml\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax.expatreader',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\xml\\sax\\expatreader.py',
+   'PYMODULE'),
+  ('xml.sax.saxutils',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\xml\\sax\\saxutils.py',
+   'PYMODULE'),
+  ('urllib.request',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\urllib\\request.py',
+   'PYMODULE'),
+  ('getpass',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\getpass.py',
+   'PYMODULE'),
+  ('nturl2path',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\nturl2path.py',
+   'PYMODULE'),
+  ('ftplib',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\ftplib.py',
+   'PYMODULE'),
+  ('netrc',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\netrc.py',
+   'PYMODULE'),
+  ('http.cookiejar',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\http\\cookiejar.py',
+   'PYMODULE'),
+  ('urllib.response',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\urllib\\response.py',
+   'PYMODULE'),
+  ('urllib.error',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\urllib\\error.py',
+   'PYMODULE'),
+  ('xml.sax',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\xml\\sax\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax.handler',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\xml\\sax\\handler.py',
+   'PYMODULE'),
+  ('xml.sax._exceptions',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\xml\\sax\\_exceptions.py',
+   'PYMODULE'),
+  ('xml.sax.xmlreader',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\xml\\sax\\xmlreader.py',
+   'PYMODULE'),
+  ('xml.parsers',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\xml\\parsers\\__init__.py',
+   'PYMODULE'),
+  ('xml.parsers.expat',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\xml\\parsers\\expat.py',
+   'PYMODULE'),
+  ('plistlib',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\plistlib.py',
+   'PYMODULE'),
+  ('platform',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\platform.py',
+   'PYMODULE'),
+  ('token',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\token.py',
+   'PYMODULE'),
+  ('tokenize',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\tokenize.py',
+   'PYMODULE'),
+  ('urllib.parse',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\urllib\\parse.py',
+   'PYMODULE'),
+  ('tempfile',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\tempfile.py',
+   'PYMODULE'),
+  ('subprocess',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\subprocess.py',
+   'PYMODULE'),
+  ('tty',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\tty.py',
+   'PYMODULE'),
+  ('pydoc_data',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\pydoc_data\\__init__.py',
+   'PYMODULE'),
+  ('pydoc_data.topics',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\pydoc_data\\topics.py',
+   'PYMODULE'),
+  ('html.entities',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\html\\entities.py',
+   'PYMODULE'),
+  ('html',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\html\\__init__.py',
+   'PYMODULE'),
+  ('ssl',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\ssl.py',
+   'PYMODULE'),
+  ('http.client',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\http\\client.py',
+   'PYMODULE'),
+  ('mimetypes',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\mimetypes.py',
+   'PYMODULE'),
+  ('socketserver',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\socketserver.py',
+   'PYMODULE'),
+  ('http',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\http\\__init__.py',
+   'PYMODULE'),
+  ('http.server',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\http\\server.py',
+   'PYMODULE'),
+  ('optparse',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\optparse.py',
+   'PYMODULE'),
+  ('uu',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\uu.py',
+   'PYMODULE'),
+  ('quopri',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\quopri.py',
+   'PYMODULE'),
+  ('email.feedparser',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\email\\feedparser.py',
+   'PYMODULE'),
+  ('email.parser',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\email\\parser.py',
+   'PYMODULE'),
+  ('email',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\email\\__init__.py',
+   'PYMODULE'),
+  ('calendar',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\calendar.py',
+   'PYMODULE'),
+  ('email._parseaddr',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\email\\_parseaddr.py',
+   'PYMODULE'),
+  ('email.utils',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\email\\utils.py',
+   'PYMODULE'),
+  ('email.errors',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\email\\errors.py',
+   'PYMODULE'),
+  ('email.header',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\email\\header.py',
+   'PYMODULE'),
+  ('email._policybase',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\email\\_policybase.py',
+   'PYMODULE'),
+  ('email.base64mime',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\email\\base64mime.py',
+   'PYMODULE'),
+  ('email.encoders',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\email\\encoders.py',
+   'PYMODULE'),
+  ('email.charset',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\email\\charset.py',
+   'PYMODULE'),
+  ('base64',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\base64.py',
+   'PYMODULE'),
+  ('email._encoded_words',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\email\\_encoded_words.py',
+   'PYMODULE'),
+  ('hashlib',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\hashlib.py',
+   'PYMODULE'),
+  ('bisect',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\bisect.py',
+   'PYMODULE'),
+  ('random',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\random.py',
+   'PYMODULE'),
+  ('email.generator',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\email\\generator.py',
+   'PYMODULE'),
+  ('email.iterators',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\email\\iterators.py',
+   'PYMODULE'),
+  ('urllib',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\urllib\\__init__.py',
+   'PYMODULE'),
+  ('email._header_value_parser',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\email\\_header_value_parser.py',
+   'PYMODULE'),
+  ('email.headerregistry',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\email\\headerregistry.py',
+   'PYMODULE'),
+  ('email.quoprimime',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\email\\quoprimime.py',
+   'PYMODULE'),
+  ('email.contentmanager',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\email\\contentmanager.py',
+   'PYMODULE'),
+  ('email.policy',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\email\\policy.py',
+   'PYMODULE'),
+  ('email.message',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\email\\message.py',
+   'PYMODULE'),
+  ('bz2',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\bz2.py',
+   'PYMODULE'),
+  ('lzma',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\lzma.py',
+   'PYMODULE'),
+  ('_compression',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\_compression.py',
+   'PYMODULE'),
+  ('gzip',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\gzip.py',
+   'PYMODULE'),
+  ('tarfile',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\tarfile.py',
+   'PYMODULE'),
+  ('py_compile',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\py_compile.py',
+   'PYMODULE'),
+  ('zipfile',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\zipfile.py',
+   'PYMODULE'),
+  ('shutil',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\shutil.py',
+   'PYMODULE'),
+  ('selectors',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\selectors.py',
+   'PYMODULE'),
+  ('socket',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\socket.py',
+   'PYMODULE'),
+  ('webbrowser',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\webbrowser.py',
+   'PYMODULE'),
+  ('pydoc',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\pydoc.py',
+   'PYMODULE'),
+  ('getopt',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\getopt.py',
+   'PYMODULE'),
+  ('pdb',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\pdb.py',
+   'PYMODULE'),
+  ('unittest.util',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\unittest\\util.py',
+   'PYMODULE'),
+  ('unittest.result',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\unittest\\result.py',
+   'PYMODULE'),
+  ('string',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\string.py',
+   'PYMODULE'),
+  ('_threading_local',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\_threading_local.py',
+   'PYMODULE'),
+  ('threading',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\threading.py',
+   'PYMODULE'),
+  ('_compat_pickle',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\_compat_pickle.py',
+   'PYMODULE'),
+  ('pickle',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\pickle.py',
+   'PYMODULE'),
+  ('logging',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\logging\\__init__.py',
+   'PYMODULE'),
+  ('pprint',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\pprint.py',
+   'PYMODULE'),
+  ('contextlib',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\contextlib.py',
+   'PYMODULE'),
+  ('unittest.case',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\unittest\\case.py',
+   'PYMODULE'),
+  ('unittest.suite',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\unittest\\suite.py',
+   'PYMODULE'),
+  ('stat',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\stat.py',
+   'PYMODULE'),
+  ('genericpath',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\genericpath.py',
+   'PYMODULE'),
+  ('posixpath',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\posixpath.py',
+   'PYMODULE'),
+  ('fnmatch',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\fnmatch.py',
+   'PYMODULE'),
+  ('unittest.loader',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\unittest\\loader.py',
+   'PYMODULE'),
+  ('unittest.runner',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\unittest\\runner.py',
+   'PYMODULE'),
+  ('unittest.main',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\unittest\\main.py',
+   'PYMODULE'),
+  ('signal',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\signal.py',
+   'PYMODULE'),
+  ('unittest.signals',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\unittest\\signals.py',
+   'PYMODULE'),
+  ('unittest',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\unittest\\__init__.py',
+   'PYMODULE'),
+  ('struct',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\struct.py',
+   'PYMODULE'),
+  ('gettext',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\gettext.py',
+   'PYMODULE'),
+  ('textwrap',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\textwrap.py',
+   'PYMODULE'),
+  ('argparse',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\argparse.py',
+   'PYMODULE'),
+  ('doctest',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\doctest.py',
+   'PYMODULE'),
+  ('copy',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\copy.py',
+   'PYMODULE'),
+  ('_py_abc',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\_py_abc.py',
+   'PYMODULE'),
+  ('cProfile',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\cProfile.py',
+   'PYMODULE'),
+  ('pstats',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\pstats.py',
+   'PYMODULE'),
+  ('profile',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\lib\\profile.py',
+   'PYMODULE'),
+  ('data.main',
+   'C:\\Users\\Carlos Serna\\Desktop\\CPSC '
+   '386\\Mario-Level-1-master\\Mario-Level-1-master\\data\\main.py',
+   'PYMODULE'),
+  ('data.settings',
+   'C:\\Users\\Carlos Serna\\Desktop\\CPSC '
+   '386\\Mario-Level-1-master\\Mario-Level-1-master\\data\\settings.py',
+   'PYMODULE'),
+  ('data.states.game_functions',
+   'C:\\Users\\Carlos Serna\\Desktop\\CPSC '
+   '386\\Mario-Level-1-master\\Mario-Level-1-master\\data\\states\\game_functions.py',
+   'PYMODULE'),
+  ('data.components.castle_flag',
+   'C:\\Users\\Carlos Serna\\Desktop\\CPSC '
+   '386\\Mario-Level-1-master\\Mario-Level-1-master\\data\\components\\castle_flag.py',
+   'PYMODULE'),
+  ('data.components.score',
+   'C:\\Users\\Carlos Serna\\Desktop\\CPSC '
+   '386\\Mario-Level-1-master\\Mario-Level-1-master\\data\\components\\score.py',
+   'PYMODULE'),
+  ('data.components.info',
+   'C:\\Users\\Carlos Serna\\Desktop\\CPSC '
+   '386\\Mario-Level-1-master\\Mario-Level-1-master\\data\\components\\info.py',
+   'PYMODULE'),
+  ('data.components.flashing_coin',
+   'C:\\Users\\Carlos Serna\\Desktop\\CPSC '
+   '386\\Mario-Level-1-master\\Mario-Level-1-master\\data\\components\\flashing_coin.py',
+   'PYMODULE'),
+  ('data.components.flagpole',
+   'C:\\Users\\Carlos Serna\\Desktop\\CPSC '
+   '386\\Mario-Level-1-master\\Mario-Level-1-master\\data\\components\\flagpole.py',
+   'PYMODULE'),
+  ('data.components.checkpoint',
+   'C:\\Users\\Carlos Serna\\Desktop\\CPSC '
+   '386\\Mario-Level-1-master\\Mario-Level-1-master\\data\\components\\checkpoint.py',
+   'PYMODULE'),
+  ('data.components.enemies',
+   'C:\\Users\\Carlos Serna\\Desktop\\CPSC '
+   '386\\Mario-Level-1-master\\Mario-Level-1-master\\data\\components\\enemies.py',
+   'PYMODULE'),
+  ('data.components.coin_box',
+   'C:\\Users\\Carlos Serna\\Desktop\\CPSC '
+   '386\\Mario-Level-1-master\\Mario-Level-1-master\\data\\components\\coin_box.py',
+   'PYMODULE'),
+  ('data.components.coin',
+   'C:\\Users\\Carlos Serna\\Desktop\\CPSC '
+   '386\\Mario-Level-1-master\\Mario-Level-1-master\\data\\components\\coin.py',
+   'PYMODULE'),
+  ('data.components.powerups',
+   'C:\\Users\\Carlos Serna\\Desktop\\CPSC '
+   '386\\Mario-Level-1-master\\Mario-Level-1-master\\data\\components\\powerups.py',
+   'PYMODULE'),
+  ('data.components.bricks',
+   'C:\\Users\\Carlos Serna\\Desktop\\CPSC '
+   '386\\Mario-Level-1-master\\Mario-Level-1-master\\data\\components\\bricks.py',
+   'PYMODULE'),
+  ('data.components.collider',
+   'C:\\Users\\Carlos Serna\\Desktop\\CPSC '
+   '386\\Mario-Level-1-master\\Mario-Level-1-master\\data\\components\\collider.py',
+   'PYMODULE'),
+  ('data.components.mario',
+   'C:\\Users\\Carlos Serna\\Desktop\\CPSC '
+   '386\\Mario-Level-1-master\\Mario-Level-1-master\\data\\components\\mario.py',
+   'PYMODULE'),
+  ('data.components', '-', 'PYMODULE'),
+  ('data.game_sound',
+   'C:\\Users\\Carlos Serna\\Desktop\\CPSC '
+   '386\\Mario-Level-1-master\\Mario-Level-1-master\\data\\game_sound.py',
+   'PYMODULE'),
+  ('data.states.load_screen',
+   'C:\\Users\\Carlos Serna\\Desktop\\CPSC '
+   '386\\Mario-Level-1-master\\Mario-Level-1-master\\data\\states\\load_screen.py',
+   'PYMODULE'),
+  ('data.states.main_menu',
+   'C:\\Users\\Carlos Serna\\Desktop\\CPSC '
+   '386\\Mario-Level-1-master\\Mario-Level-1-master\\data\\states\\main_menu.py',
+   'PYMODULE'),
+  ('data.states', '-', 'PYMODULE'),
+  ('data.tools',
+   'C:\\Users\\Carlos Serna\\Desktop\\CPSC '
+   '386\\Mario-Level-1-master\\Mario-Level-1-master\\data\\tools.py',
+   'PYMODULE'),
+  ('data.setup',
+   'C:\\Users\\Carlos Serna\\Desktop\\CPSC '
+   '386\\Mario-Level-1-master\\Mario-Level-1-master\\data\\setup.py',
+   'PYMODULE'),
+  ('data', '-', 'PYMODULE')],
+ [('python37.dll',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\python37.dll',
+   'BINARY'),
+  ('VCRUNTIME140.dll',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('_ssl',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\DLLs\\_ssl.pyd',
+   'EXTENSION'),
+  ('unicodedata',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
+  ('pyexpat',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\DLLs\\pyexpat.pyd',
+   'EXTENSION'),
+  ('_hashlib',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\DLLs\\_hashlib.pyd',
+   'EXTENSION'),
+  ('select',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\DLLs\\select.pyd',
+   'EXTENSION'),
+  ('_bz2',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\DLLs\\_bz2.pyd',
+   'EXTENSION'),
+  ('_lzma',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\DLLs\\_lzma.pyd',
+   'EXTENSION'),
+  ('_socket',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\DLLs\\_socket.pyd',
+   'EXTENSION'),
+  ('libcrypto-1_1.dll',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\DLLs\\libcrypto-1_1.dll',
+   'BINARY'),
+  ('libssl-1_1.dll',
+   'c:\\users\\carlos '
+   'serna\\appdata\\local\\programs\\python\\python37-32\\DLLs\\libssl-1_1.dll',
+   'BINARY')],
+ [],
+ [],
+ [('base_library.zip',
+   'C:\\Users\\Carlos Serna\\Desktop\\CPSC '
+   '386\\Mario-Level-1-master\\Mario-Level-1-master\\build\\superevilmario\\base_library.zip',
+   'DATA')],
+ [])
